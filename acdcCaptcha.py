@@ -35,4 +35,3 @@ def getInfo():
 		}
 	resp = session.post(link1, headers=headers,data = payload, cookies = cookies,allow_redirects=True)
 	return ([token, captain, cookies,link1])
-getInfo()
